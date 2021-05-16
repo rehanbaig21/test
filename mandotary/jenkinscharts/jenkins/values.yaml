@@ -1,0 +1,11 @@
+servicename: jenkins
+imagetag: lts
+containerport: 8085
+replicas: 1
+jnlpcontainerport: 5000
+port: 8085
+targetport: 8085
+nodeport: 32500
+clusterport: 8086
+clustertargetport: 8086
+
