@@ -10,3 +10,4 @@ node {
 s
         app = docker.build("getintodevops/hellonode")
     }
+}
