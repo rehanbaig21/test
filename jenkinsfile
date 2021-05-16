@@ -7,7 +7,7 @@ node {
     }
 
     stage('Build image') {
-s
+
         app = docker.build("getintodevops/hellonode")
     }
 }
