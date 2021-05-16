@@ -1,3 +1,3 @@
 FROM tomcat:8.0
-LABEL maintainer=”Rehan Baig”
+LABEL maintainer=”RehanBaig”
 COPY sampleapp/sample.war /usr/local/tomcat/webapps/
